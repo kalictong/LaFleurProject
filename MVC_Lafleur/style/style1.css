@@ -1,0 +1,108 @@
+/*Développé par MEGROUS MEHDI*/
+body
+{
+    margin :0px;
+    text-align:center;
+    background:#9EB7FF url("../Images/back.jpg") repeat-x;
+    
+}
+
+#page
+{
+    margin:0px auto;
+    width :900px;
+    text-align:left;
+    background-color:#FFFFFF;
+    -moz-box-shadow: 0px 0px 10px 10px #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 10px #ffffff;
+    -o-box-shadow: 0px 0px 10px 10px #ffffff;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+#header
+{
+    text-align:left;
+    background-repeat: no-repeat ;
+    width:900px;
+    height:170px;
+    background-image:url("../Images/header.jpg");
+
+}
+
+
+#content
+{
+    margin:0px;
+    background-color:#FFFFFF;
+    width:900px;
+    margin-bottom:12px; 
+    text-align:center;
+}
+
+
+#footer
+{
+    margin:0px;
+    padding:0px;
+    text-align:left;
+    background-color:#FFFFFF;
+    width:900px;
+    
+}
+
+#geolocalisation
+{
+ float:left;
+ text-align :left;
+}
+
+#ouverture
+{
+ float:right;
+ text-align:right;
+}
+
+a img
+{
+    border:none;
+
+}
+
+h1
+{
+ border-bottom:3px solid #E6E2AF;
+ font-family:Tahoma,arial,sans-serif;
+ font-style:italic;
+ font-weight:normal;
+ border-top-style:dashed;
+ border-bottom-style:dashed;
+ color: white; 
+ text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+a.panier
+{
+text-decoration:none;
+font-weight:bold;
+text-align:left;
+font-size:20px;
+text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+}
+
+div.messConf
+{
+    position:absolute;
+    width:600px;
+    height:100px;
+    background-image:url("../Images/messConf.jpg");
+    border:2px solid #FE9AD6;
+    margin:0px auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px; /* moitié de width */
+    margin-top: -50px; /* moitié de height */
+    text-align:center;
+    line-height:100px;
+    font-weight:bold;
+}

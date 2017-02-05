@@ -1,0 +1,88 @@
+/*Développé par MEGROUS MEHDI*/
+.tabProduits
+{ 
+ border-collapse:collapse;
+ width:95%;
+ border-right:1px black;
+}
+
+.tabProduits td,.tabProduits tr
+{
+ width:20%;
+ text-align:center;
+ margin-bottom:1px black;
+}
+
+
+thead.tabProduits
+{
+
+ font-size:25px;
+ background-color:pink;
+}
+
+/* tableau du panier d'achat */
+
+.tabPanier
+{
+    margin:0px auto;
+    width:99%;
+    text-align:center;
+}
+
+
+.tabPanier td
+{
+    border-bottom:1px black solid;
+    color:black;
+}
+
+.tabPanier tr.entete td
+{
+    background-color:pink;
+    font-weight:bold;
+}
+
+
+
+
+/* tableau du pied de page*/
+
+.tabFooter td
+{
+text-align:center;
+}
+
+/*Tableau des commandes de l'espace membre*/
+
+.commande
+{
+ border-collapse:collapse;
+ width:90%;
+}
+
+.commande th, .commande td
+{
+ border:1px solid black;
+ width:20%;
+}
+
+.commande td
+{
+ text-align:center;
+}
+
+.commande th
+{
+ font-size:20px;
+ background-color:pink;
+}
+
+
+
+
+
+
+
+
+

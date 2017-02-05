@@ -1,0 +1,52 @@
+/*Développé par MEGROUS MEHDI*/
+
+/*Code du menu horizontal souligné*/
+
+#underlinemenu{
+margin: 0;
+padding: 0;
+}
+
+#underlinemenu ul{
+margin: 0;
+margin-bottom: 1em;
+padding-left: 0;
+float: left;
+font-weight: bold;
+width: 100%;
+border: 1px solid #DFDFDF;
+border-width: 1px 0;
+background-color:#F3F3F3;
+text-shadow: 0 0 0.2em #fff, 0 0 0.2em #000;
+
+}
+
+/*règle pour IE. Supprime la marge extra basse*/
+* html #underlinemenu ul{
+margin-bottom: 0;
+}
+
+#underlinemenu ul li{
+display: inline;
+}
+
+/*Mise en forme des liens*/
+#underlinemenu ul li a{
+float: left;
+color: gray;
+font-weight: bold;
+padding: 2px 6px 4px 6px;
+text-decoration: none;
+/*image de séparation des rubriques*/
+background:#F3F3F3; url("../Images/menudivide.gif") top right repeat-y;
+}
+
+/*Configuration du survol des liens*/
+#underlinemenu ul li a:hover
+{
+color: purple;
+background-color: #F3F3F3;
+padding-bottom: 0;
+text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}

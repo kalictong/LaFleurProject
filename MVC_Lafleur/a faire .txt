@@ -1,0 +1,5 @@
+traitement quantite // fichier qui sert a rien
+
+//ctrl traitement commande voir si on peut pas 
+racourcir le require modele fonction pannier 
+avec un include
